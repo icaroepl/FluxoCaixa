@@ -90,3 +90,12 @@ footer {
     font-size: 0.9rem;
     border-top: 1px solid #292a37;
 }
+
+/* --- ESTILIZAÇÃO DA PLANILHA INCORPORADA --- */
+.container-planilha {
+    width: 100%;
+    overflow-x: auto; /* Permite rolar para o lado se a planilha for muito grande no celular */
+    background-color: #ffffff; /* Fundo branco para a planilha ficar legível */
+    padding: 5px;
+    border-radius: 4px;
+}
